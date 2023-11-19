@@ -1,7 +1,11 @@
-@import '103-sort_list';
+// 103-sort_list.scss
 
-// Sort the list using the built-in sort() function
-$list_sorted: sort($list_to_sort);
+// Define the unsorted list
+$list_to_sort: john anna zoe kim felicia carrie;
+
+// Sort the list
+$sorted_list: sort($list_to_sort);
 
 // Print the sorted list in the debug output
 @debug "Sorted List:", $sorted_list;
+
