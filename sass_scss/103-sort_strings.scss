@@ -1,4 +1,4 @@
-@import (103-sort_list);
+@import '103-sort_list';
 
 // Sort the list using the built-in sort() function
 $list_sorted: sort($list_to_sort);
